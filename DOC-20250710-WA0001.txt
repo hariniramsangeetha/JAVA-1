@@ -206,7 +206,95 @@ public class Main
 	}
 }
 
-package java1;
+
+
+
+10/07/2025
+
+Print the values 0 to 10 
+
+public class series 
+{
+    public static void main(String[] args)
+    {
+    	for(int i=0;i<=10;i++)
+    	{
+    		System.out.println("i="+i);
+    	}
+    }
+}
+
+In reverse order
+
+
+package java1;public class series 
+{
+    public static void main(String[] args)
+    {
+    	for(int i=10;i>=0;i--)
+    	{
+    		System.out.println("i="+i);
+    	}
+    }
+}
+Using While loop
+public class series 
+{
+    public static void main(String[] args)
+    {
+    	int i=1;
+    	while(i<=10)
+    	{
+    		System.out.println("i="+i);
+    		i++;
+    	}
+    }
+}
+
+TO ;PRINT EVEN NUMBERS:
+public class loop
+{
+    public static void main(String[] args)
+    {
+    	for(int i=50;i<=100;i++)
+    	{
+    		if(i%2==0)
+    		{
+    			System.out.println("i="+i);
+    		}
+    	}
+    }
+}
+
+Print the numbers addition of 4
+public class loop
+{
+    public static void main(String[] args)
+    {
+    	for(int i=50;i<=100;i=i+4)
+    	{
+    		System.out.println("i="+i);
+    	}
+    }
+}
+
+
+Print the numbers multiples of 4
+
+public class loop
+{
+    public static void main(String[] args)
+    {
+    	for(int i=50;i<=100;i++)
+    	{
+    		if(i%4==0)
+    		{
+    			System.out.println("i="+i);
+    		}
+    	}
+    }
+}
+
 import java.util.Scanner;
 public class seies {
 
