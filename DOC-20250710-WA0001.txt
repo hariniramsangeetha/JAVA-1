@@ -205,3 +205,52 @@ public class Main
 		System.out.println("The Average Mark:"+avg);
 	}
 }
+
+package java1;
+import java.util.Scanner;
+public class seies {
+
+    public static void main(String[] args) {
+        int  n;
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        n=obj.nextInt();
+        for(int i=0;i<=n;i++){
+        	if(i%4==0)
+        	{
+            System.out.println("Enen number : "+i);
+            // increment i to avoid infinite loop   
+        	}
+        }
+
+
+
+Define a class named person with attributes name and age the name is string and the age is integer then implement the getter methods getname and getage to retrieve the values of the attributes create a method display to print the name and age of the person create instance of the class person
+package java1;
+import java.util.*;
+import java.util.Scanner;
+class detail{
+	public String name;
+	public int age;
+	public void display() {
+		System.out.println("Name : "+name);
+		System.out.println("Age :"+age);
+	}
+}
+
+public class person {
+
+	public static void main(String[] args) {
+		Scanner x=new Scanner(System.in);
+		detail obj=new detail();
+		System.out.println("Enter the name:");
+		String n=x.nextLine();
+		System.out.println("Enter the age: ");
+		int a=x.nextInt();
+		obj.name=n;
+		obj.age=a;
+		obj.display();
+
+	}
+
+}
